@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors duration-300;
+  }
+  
+  .social-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors duration-300;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-800 mb-8;
+  }
+}
+
+.skill-tag {
+  @apply px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium relative cursor-pointer transition-all duration-300 hover:bg-blue-100;
+}
+
+.skill-tag:hover .skill-tooltip {
+  @apply visible opacity-100;
+}
+
+.skill-tooltip {
+  @apply invisible opacity-0 absolute left-1/2 -translate-x-1/2 bottom-full mb-2 
+         px-4 py-2 bg-gray-800 text-white text-xs rounded-lg 
+         whitespace-nowrap z-10 transition-all duration-300;
+}
+
+.skill-tooltip::after {
+  content: '';
+  @apply absolute left-1/2 -translate-x-1/2 top-full
+         border-8 border-transparent border-t-gray-800;
+}
+
+.code-background {
+  @apply absolute inset-0 overflow-hidden opacity-10;
+}
+
+.code-line {
+  @apply font-mono text-sm whitespace-nowrap;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(-100%); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fade-in-delay-1 {
+  animation: fadeIn 0.6s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fadeIn 0.6s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.animate-slide-up {
+  animation: slideUp 15s linear infinite;
+}
