@@ -103,7 +103,7 @@ const About = () => {
 
 const skills = [
   {
-    name: "Python",
+    name: "Java",
     description: "Backend development, API integration, Data processing"
   },
   {
@@ -123,12 +123,12 @@ const skills = [
     description: "Server-side JavaScript, API development"
   },
   {
-    name: "Django",
+    name: "Spring Boot",
     description: "Full-stack Python web framework, ORM"
   },
   {
-    name: "Flask",
-    description: "Lightweight Python web framework, RESTful APIs"
+    name: "Maven",
+    description: "Managing Project Builds, Dependencies, and Automation."
   },
   {
     name: "AWS",
