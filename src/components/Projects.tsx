@@ -48,6 +48,7 @@ const projects = [
     description: "A comprehensive system for managing student information and operations with a user-friendly interface.",
     technologies: ["Python", "HTML/CSS", "MySQL"],
     github: "https://github.com/AnuragKannepalli/Student-Management-system-Python",
+    live: "",
   },
   {
     title: "Expense Calculator",
