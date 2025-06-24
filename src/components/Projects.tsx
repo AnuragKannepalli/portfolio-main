@@ -50,9 +50,10 @@ const projects = [
     github: "https://github.com/AnuragKannepalli/Student-Management-system-Python",
   },
   {
-    title: "Exponential Calculation Tool",
-    description: "A scalable web application for performing complex exponential calculations with efficient data storage.",
-    technologies: ["HTML/CSS", "AWS Amplify", "DynamoDB"],
+    title: "Expense Calculator",
+    description: "A scalable web application for calculating the amount spend in our day to day life with dashboards by using efficient data storage.",
+    technologies: ["React", "AWS", "Postgre SQL"],
+    github: "https://github.com/AnuragKannepalli/Expense-Calculator"
     
   }
 ];

@@ -54,7 +54,7 @@ const Contact = () => {
                 <Mail size={20} />
                 <span>anurag.kannepalli@gmail.com</span>
               </a>
-              <a href="https://linkedin.com/in/venkatasaianurag-kannepalli" className="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://linkedin.com/in/venkata-kannepalli" className="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={20} />
                 <span>LinkedIn</span>
               </a>

@@ -34,36 +34,37 @@ const Experience = () => {
 
 const experiences = [
   {
-    role: "Software Developer",
+    role: "Full Stack Engineer",
     company: "RideInfo Tech Systems",
-    period: "August 2024 – Present",
+    period: "August 2024 – May 2025",
     responsibilities: [
-      "Assisted in migrating a monolithic application to a microservices architecture, improving scalability and maintainability for telecommunications applications.",
-      "Developed dynamic, responsive user interfaces using ReactJS and Node.js, ensuring a seamless user experience.",
-      "Created and optimized backend services with Java Spring Boot, including designing and implementing RESTful APIs and performing comprehensive testing with Postman and unit tests.",
-      "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 25%."
+      "Developed scalable single-page applications using React.js, integrating with backend APIs deployed via AWS Lambda for seamless performance and scalability.",
+      "Created AI-powered chatbots using OpenAI APIs to automate customer support and streamline internal workflows.",
+      "Utilized AWS services such as S3, API Gateway, and DynamoDB to manage application data with high availability and low latency.",
+      "mbedded Generative AI features such as content summarization and prompt-based automation to enhance user engagement and productivity.",
+      "Automated deployment workflows with Docker containers and GitHub Actions, enabling fast and reliable CI/CD pipelines."
     ]
   },
   {
     role: "Application Development Associate",
     company: "Accenture Solutions",
-    period: "Jan 2022 – Dec 2022",
+    period: "August 2022 – Dec 2022",
     responsibilities: [
-      "Developed scalable Java-based software solutions using Spring Boot for the finance sector, enhancing system performance by 15%.",
-      "Designed and implemented RESTful APIs to facilitate seamless integration between systems, reducing data communication errors by 30%.",
-      "Built automated unit and integration testing frameworks using JUnit and Mockito, cutting manual testing time by 40%.",
+      "Developed and maintained full stack web applications using Node.js for backend APIs and React.js for building dynamic, responsive user interfaces.",
+      "Built interactive dashboards and reusable, data-driven components using custom React hooks for enhanced user experience.",
+      "Migrated legacy systems to the AWS Cloud, utilizing EC2, RDS, and CloudFront for secure and scalable hosting.",
       "Optimized database queries and enhanced performance for financial data processing workflows using PostgreSQL, improving transaction processing speed by 20%."
     ]
   },
   {
-    role: "Junior Developer",
-    company: "PARCSS Systems",
-    period: "April 2020 – Dec 2021",
+    role: "Front End Developer",
+    company: "Skill Safari",
+    period: "Jan 2020 – March 2020",
     responsibilities: [
-      "Developed scalable backend services using Java and Spring Boot for healthcare applications, improving system reliability and performance.",
-      "Collaborated on building responsive user interfaces using React.js and TypeScript to enhance user experience.",
-      "Optimized SQL database performance, improving query efficiency and increasing overall system speed by 20%.",
-      "Integrated data processing modules and implemented RESTful APIs, streamlining system operations and improving data flow across services.",
+      "Developed and maintained user-friendly web pages that provide seamless user experiences across various devices, ensuring optimal performance and accessibility.",
+      "Developed modular UI components in React and ensured cross-browser compatibility.",
+      "Assisted in integrating RESTful APIs with frontend and optimizing performance using lazy loading and code splitting."
+
     ]
   }
 ];

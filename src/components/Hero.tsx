@@ -56,7 +56,7 @@ const Hero = () => {
           <a href="https://github.com/AnuragKannepalli" className="social-link">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com/in/venkatasaianurag-kannepalli" className="social-link">
+          <a href="https://linkedin.com/in/venkata-kannepalli" className="social-link">
             <Linkedin size={24} />
           </a>
           <a href="mailto:anurag.kannepalli@gmail.com" className="social-link">

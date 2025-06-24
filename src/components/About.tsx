@@ -76,7 +76,7 @@ const About = () => {
                 <h3 className="font-semibold">Experience</h3>
                 <p className="text-gray-600">Software Developer at RideInfo Tech Systems</p>
                 <p className="text-gray-600">Application Development Associate at Accenture</p>
-                <p className="text-gray-600">Junior Developer at PARCSS Systems</p>
+                <p className="text-gray-600">Front End Developer at Skill Safari</p>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ const About = () => {
 
 const skills = [
   {
-    name: "Java",
+    name: "Python",
     description: "Backend development, API integration, Data processing"
   },
   {
@@ -121,14 +121,6 @@ const skills = [
   {
     name: "Node.js",
     description: "Server-side JavaScript, API development"
-  },
-  {
-    name: "Spring Boot",
-    description: "Full-stack Python web framework, ORM"
-  },
-  {
-    name: "Maven",
-    description: "Managing Project Builds, Dependencies, and Automation."
   },
   {
     name: "AWS",

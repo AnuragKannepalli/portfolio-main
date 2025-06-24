@@ -53,7 +53,7 @@ const SocialLinks = () => (
     <a href="https://github.com/AnuragKannepalli" className="social-link">
       <Github size={20} />
     </a>
-    <a href="https://www.linkedin.com/in/venkatasaianurag-kannepalli/" className="social-link">
+    <a href="https://www.linkedin.com/in/venkata-kannepalli/" className="social-link">
       <Linkedin size={20} />
     </a>
     <a href="mailto:anurag.kannepalli@gmail.com" className="social-link">
